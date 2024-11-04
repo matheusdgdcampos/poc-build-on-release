@@ -28,8 +28,4 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build on EAS
-<<<<<<< Updated upstream
         run: eas build:run --platform=android --profile=production --non-interactive --no-wait
-=======
-        run: eas build --platform=android --profile=production --non-interactive --no-wait
->>>>>>> Stashed changes
